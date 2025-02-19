@@ -18,13 +18,17 @@ public class App {
         System.out.println("Enter 1-4 to identify your currency:");
         
         
-            }
         
-            public static void pressAnyKeyToContinue() {
+        
+        scanner.close();
+    }
+    
+    public static void pressAnyKeyToContinue() {
         System.out.println("Press enter to Continue.....");
         Scanner s = new Scanner(System.in);
         s.nextLine();
     }
+
 }
 
 
